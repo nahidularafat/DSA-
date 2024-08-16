@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -55,6 +54,8 @@ int main() {
     enqueue(3);
 
     display();
-
+    dequeue();
+    display();
+    
     return 0;
 }
